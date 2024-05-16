@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import font
 import regex
-import time
 
 #function that prints messages on the screen
 def send_message(event=None): 

@@ -28,16 +28,3 @@ def chatbot(input_sentence):
                 if index > 1 and book_info: return response + book_info[index-1]  #checks if the index is greater than 1, because the first 2 questions do not require data from the book info table. if they do, it retrieves the info from the corresponding row of the table
                 else: return response   #simple response for the first two questions
     else: return "I'm sorry, I didn't understand that." #default answer
-
-# Test the chatbot
-'''
-print("ChatBot: Hello! Ask me anything or say something.")
-while True:
-    user_input = input("You: ")
-    if user_input.lower() == 'exit':
-        print("ChatBot: Goodbye!")
-        break
-    else:
-        bot_response = chatbot(user_input)
-        print("ChatBot:", bot_response)
-'''
