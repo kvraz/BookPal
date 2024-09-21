@@ -29,7 +29,7 @@ Due to the inclusion of executable files, the project may be flagged as potentia
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bookpal.git
+   git clone https://github.com/kvraz/bookpal.git
    ```
 2. Navigate to the project directory:
    ```bash
